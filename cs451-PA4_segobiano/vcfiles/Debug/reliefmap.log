@@ -1,0 +1,72 @@
+﻿Build started 10/27/2014 7:23:42 PM.
+     1>Project "C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\reliefmap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I../mathtool /I../modelgraph /I../soil /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D FREEGLUT_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GL\gli.cpp ..\main.cpp ..\mathtool\Basic.cpp ..\mathtool\Quaternion.cpp ..\model.cpp ..\modelgraph\ModelEdge.cpp ..\modelgraph\ModelGraph.cpp ..\modelgraph\ModelNode.cpp ..\shader.cpp
+         shader.cpp
+         ModelNode.cpp
+         ModelGraph.cpp
+         ModelEdge.cpp
+         model.cpp
+         Quaternion.cpp
+         Basic.cpp
+         main.cpp
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\draw.h(219): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\draw.h(220): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\draw.h(221): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         gli.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I../mathtool /I../modelgraph /I../soil /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D FREEGLUT_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\soil\image_DXT.c ..\soil\image_helper.c ..\soil\SOIL.c ..\soil\stb_image_aug.c
+         stb_image_aug.c
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\stbi_dds_aug_c.h(362): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\stbi_dds_aug_c.h(366): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\stbi_dds_aug_c.h(390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\stbi_dds_aug_c.h(427): warning C4018: '<' : signed/unsigned mismatch
+         SOIL.c
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\soil.c(1719): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\soil.c(1729): warning C4018: '<' : signed/unsigned mismatch
+         image_helper.c
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\image_helper.c(325): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\image_helper.c(366): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\image_helper.c(373): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\image_helper.c(415): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brad\desktop\cs451\cs451-pa4_segobiano\soil\image_helper.c(422): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         image_DXT.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\reliefmap.exe" /INCREMENTAL /NOLOGO /LIBPATH:../GL glew32sd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\reliefmap.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\reliefmap.lib" /MACHINE:X86 Debug\gli.obj
+         Debug\main.obj
+         Debug\Basic.obj
+         Debug\Quaternion.obj
+         Debug\model.obj
+         Debug\ModelEdge.obj
+         Debug\ModelGraph.obj
+         Debug\ModelNode.obj
+         Debug\shader.obj
+         Debug\image_DXT.obj
+         Debug\image_helper.obj
+         Debug\SOIL.obj
+         Debug\stb_image_aug.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32sd.lib(glew.obj) : warning LNK4204: 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_callbacks.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_callbacks.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_cursor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_cursor.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_display.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_display.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_font.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_font_data.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_font_data.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_init.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_input_devices.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_input_devices.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_joystick.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_joystick.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_main.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_main.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_menu.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_menu.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_spaceball.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_spaceball.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_state.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_state.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_stroke_mono_roman.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_stroke_roman.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_stroke_roman.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_structure.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_structure.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010_d.lib(freeglut_window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010_d.lib(freeglut_window.obj)' or at 'C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\vc100.pdb'; linking object as if no debug info
+         reliefmap.vcxproj -> C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\Debug\reliefmap.exe
+     1>Done Building Project "C:\Users\Brad\Desktop\CS451\cs451-PA4_segobiano\vcfiles\reliefmap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.61
